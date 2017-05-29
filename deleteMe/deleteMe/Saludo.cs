@@ -6,14 +6,11 @@ using System.Threading.Tasks;
 
 namespace deleteMe
     {
-    class Program
+    class Saludo
         {
-        static void Main(string[] args)
+        public void Saludar(string nombre)
             {
-            Saludo SaludoObj = new Saludo();
-            SaludoObj.Saludar("Emilio");
-
-            Console.ReadKey();
+            Console.WriteLine("Hola {0}", nombre);
             }
         }
     }
